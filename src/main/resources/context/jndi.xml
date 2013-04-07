@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+	<bean id="jndi" class="org.apache.xbean.spring.jndi.DefaultContext">
+		<property name="entries">
+			<map>
+				<entry key="jdbc/dataSource">
+					<bean class="com.mchange.v2.c3p0.ComboPooledDataSource">
+						<property name="driverClass" value="com.mysql.jdbc.Driver" />
+						<property name="jdbcUrl" value="jdbc:mysql://localhost/ocho" />
+						<property name="user" value="root" />
+						<property name="password" value="ondemand" />
+					</bean>
+				</entry>
+				
+				<entry key="cx/tracking-encryption-key-256">
+					<bean class="java.lang.String">
+						<constructor-arg value="12345678912345678912345678912345" />
+					</bean>
+				</entry>
+			</map>
+		</property>
+	</bean>
+</beans>

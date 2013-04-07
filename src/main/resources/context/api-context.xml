@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:p="http://www.springframework.org/schema/p" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:tx="http://www.springframework.org/schema/tx" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:jee="http://www.springframework.org/schema/jee"
+	xsi:schemaLocation="
+            http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context.xsd
+            http://www.springframework.org/schema/jee
+            http://www.springframework.org/schema/jee/spring-jee.xsd">
+
+	<context:annotation-config />
+    <bean id="reviewResource" class="com.demandforce.api.resources.common.ReviewResource"></bean>
+    <bean id="businessResource" class="com.demandforce.api.resources.common.BusinessResource"></bean>
+    <bean id="businessAliasResource" class="com.demandforce.api.resources.BusinessAliasResource"></bean>
+    <bean id="changedResourceUtil" class="com.demandforce.api.util.common.ChangedResourceUtil"></bean>
+    <bean id="trackingResource" class="com.demandforce.api.resources.TrackingResource"></bean>
+    <bean id="reviewAPIService" class="com.demandforce.api.service.ReviewAPIServiceImpl"></bean>
+    <bean id="businessAliasAPIService" class="com.demandforce.api.service.BusinessAliasAPIServiceImpl"></bean>
+    <bean id="appointmentAPIService" class="com.demandforce.api.service.AppointmentAPIServiceImpl"></bean>
+    <bean id="businessProfileAPIService" class="com.demandforce.api.service.BusinessProfileAPIServiceImpl"></bean>
+    <bean id="reviewModelToDTOConvertor" class="com.demandforce.api.convertor.ReviewModelToDTOConvertor"></bean>
+    <bean id="businessProfileModelToDTOConvertor" class="com.demandforce.api.convertor.BusinessModelToDTOConvertor"></bean>
+    <bean id="businessAliasModelToDTOConvertor" class="com.demandforce.api.convertor.BusinessAliasModelToDTOConvertor"></bean>
+    <bean id="jsonValidator" class="com.demandforce.api.validation.common.JsonValidator"></bean>
+    <bean id="reviewHealthCheck" class="com.demandforce.api.healthcheck.common.ReviewHealthCheck"></bean>
+    <bean id="appointmentHealthCheck" class="com.demandforce.api.healthcheck.common.AppointmentHealthCheck"></bean>
+	
+	<bean id="trackingEncryptionKey256" class="java.lang.String">
+		<constructor-arg value="#{@trackingEncryptionKey256}"/>
+	</bean>
+	
+    <jee:jndi-lookup id="trackingEncryptionKey256" jndi-name="cx/tracking-encryption-key-256" />
+
+</beans>
