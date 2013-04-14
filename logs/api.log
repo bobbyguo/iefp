@@ -1,0 +1,323 @@
+INFO  [2013-04-14 06:12:32,819] org.apache.xbean.spring.jndi.SpringInitialContextFactory: Loading JNDI context from: class path resource [jndi.xml]
+INFO  [2013-04-14 06:12:32,969] org.apache.xbean.spring.context.v2.XBeanXmlBeanDefinitionReader: Loading XML bean definitions from class path resource [jndi.xml]
+INFO  [2013-04-14 06:13:22,830] org.apache.xbean.spring.jndi.SpringInitialContextFactory: Loading JNDI context from: class path resource [jndi.xml]
+INFO  [2013-04-14 06:13:22,865] org.apache.xbean.spring.context.v2.XBeanXmlBeanDefinitionReader: Loading XML bean definitions from class path resource [jndi.xml]
+INFO  [2013-04-14 06:16:48,252] org.apache.xbean.spring.jndi.SpringInitialContextFactory: Loading JNDI context from: class path resource [jndi.xml]
+INFO  [2013-04-14 06:16:48,288] org.apache.xbean.spring.context.v2.XBeanXmlBeanDefinitionReader: Loading XML bean definitions from class path resource [jndi.xml]
+INFO  [2013-04-14 06:18:54,130] org.apache.xbean.spring.jndi.SpringInitialContextFactory: Loading JNDI context from: class path resource [jndi.xml]
+INFO  [2013-04-14 06:18:54,168] org.apache.xbean.spring.context.v2.XBeanXmlBeanDefinitionReader: Loading XML bean definitions from class path resource [jndi.xml]
+INFO  [2013-04-14 06:19:12,639] org.apache.xbean.spring.jndi.SpringInitialContextFactory: Loading JNDI context from: class path resource [jndi.xml]
+INFO  [2013-04-14 06:19:12,673] org.apache.xbean.spring.context.v2.XBeanXmlBeanDefinitionReader: Loading XML bean definitions from class path resource [jndi.xml]
+INFO  [2013-04-14 06:21:06,857] org.apache.xbean.spring.jndi.SpringInitialContextFactory: Loading JNDI context from: class path resource [jndi.xml]
+INFO  [2013-04-14 06:21:06,891] org.apache.xbean.spring.context.v2.XBeanXmlBeanDefinitionReader: Loading XML bean definitions from class path resource [jndi.xml]
+INFO  [2013-04-14 06:21:07,046] org.springframework.context.support.ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3253abbb: startup date [Sun Apr 14 14:21:07 CST 2013]; root of context hierarchy
+INFO  [2013-04-14 06:21:07,048] org.springframework.beans.factory.xml.XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [dropwizardSpringContext.xml]
+INFO  [2013-04-14 06:21:07,438] org.springframework.beans.factory.support.DefaultListableBeanFactory: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@212cb585: defining beans [dropwizard]; root of factory hierarchy
+INFO  [2013-04-14 06:21:07,447] org.springframework.beans.factory.xml.XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [api-context.xml]
+INFO  [2013-04-14 06:21:07,513] org.springframework.context.support.GenericXmlApplicationContext: Refreshing org.springframework.context.support.GenericXmlApplicationContext@2e19fc25: startup date [Sun Apr 14 14:21:07 CST 2013]; root of context hierarchy
+INFO  [2013-04-14 06:21:07,529] org.springframework.beans.factory.support.DefaultListableBeanFactory: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1d1d2066: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,matcherRulerChain,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+INFO  [2013-04-14 06:21:07,541] org.springframework.beans.factory.support.DefaultListableBeanFactory: Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1d1d2066: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,matcherRulerChain,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+INFO  [2013-04-14 06:32:32,727] org.apache.xbean.spring.jndi.SpringInitialContextFactory: Loading JNDI context from: class path resource [jndi.xml]
+INFO  [2013-04-14 06:32:32,762] org.apache.xbean.spring.context.v2.XBeanXmlBeanDefinitionReader: Loading XML bean definitions from class path resource [jndi.xml]
+INFO  [2013-04-14 06:32:32,882] org.springframework.context.support.ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@e130998: startup date [Sun Apr 14 14:32:32 CST 2013]; root of context hierarchy
+INFO  [2013-04-14 06:32:32,886] org.springframework.beans.factory.xml.XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [dropwizardSpringContext.xml]
+INFO  [2013-04-14 06:32:32,948] org.springframework.beans.factory.support.DefaultListableBeanFactory: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@12183272: defining beans [dropwizard]; root of factory hierarchy
+INFO  [2013-04-14 06:32:32,953] org.springframework.beans.factory.xml.XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [api-context.xml]
+INFO  [2013-04-14 06:32:33,097] org.springframework.context.support.GenericXmlApplicationContext: Refreshing org.springframework.context.support.GenericXmlApplicationContext@5631573: startup date [Sun Apr 14 14:32:33 CST 2013]; root of context hierarchy
+INFO  [2013-04-14 06:32:33,142] org.springframework.beans.factory.support.DefaultListableBeanFactory: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@47875da7: defining beans [emailFinderHealthCheck,defaultMatcherImpl,defaultMatchRuler,emailFinderResource,changedResourceUtil,jsonValidator,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,matcherRulerChain,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+INFO  [2013-04-14 06:32:33,148] org.springframework.beans.factory.support.DefaultListableBeanFactory: Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@47875da7: defining beans [emailFinderHealthCheck,defaultMatcherImpl,defaultMatchRuler,emailFinderResource,changedResourceUtil,jsonValidator,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,matcherRulerChain,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+INFO  [2013-04-14 06:36:16,102] org.apache.xbean.spring.jndi.SpringInitialContextFactory: Loading JNDI context from: class path resource [jndi.xml]
+INFO  [2013-04-14 06:36:16,135] org.apache.xbean.spring.context.v2.XBeanXmlBeanDefinitionReader: Loading XML bean definitions from class path resource [jndi.xml]
+INFO  [2013-04-14 06:36:16,277] org.springframework.context.support.ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@340ae1cf: startup date [Sun Apr 14 14:36:16 CST 2013]; root of context hierarchy
+INFO  [2013-04-14 06:36:16,281] org.springframework.beans.factory.xml.XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [dropwizardSpringContext.xml]
+INFO  [2013-04-14 06:36:16,341] org.springframework.beans.factory.support.DefaultListableBeanFactory: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@20dccfab: defining beans [dropwizard]; root of factory hierarchy
+INFO  [2013-04-14 06:36:16,346] org.springframework.beans.factory.xml.XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [api-context.xml]
+INFO  [2013-04-14 06:36:16,470] org.springframework.context.support.GenericXmlApplicationContext: Refreshing org.springframework.context.support.GenericXmlApplicationContext@2e831a91: startup date [Sun Apr 14 14:36:16 CST 2013]; root of context hierarchy
+INFO  [2013-04-14 06:36:16,507] org.springframework.beans.factory.support.DefaultListableBeanFactory: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@72ebf3f0: defining beans [emailFinderHealthCheck,defaultMatcherImpl,defaultMatchRuler,emailFinderResource,changedResourceUtil,jsonValidator,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,matcherRulerChain,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+INFO  [2013-04-14 06:36:16,513] org.springframework.beans.factory.support.DefaultListableBeanFactory: Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@72ebf3f0: defining beans [emailFinderHealthCheck,defaultMatcherImpl,defaultMatchRuler,emailFinderResource,changedResourceUtil,jsonValidator,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,matcherRulerChain,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+INFO  [2013-04-14 06:46:40,366] org.apache.xbean.spring.jndi.SpringInitialContextFactory: Loading JNDI context from: class path resource [jndi.xml]
+INFO  [2013-04-14 06:46:40,402] org.apache.xbean.spring.context.v2.XBeanXmlBeanDefinitionReader: Loading XML bean definitions from class path resource [jndi.xml]
+INFO  [2013-04-14 06:46:40,534] org.springframework.context.support.ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@132f9bcd: startup date [Sun Apr 14 14:46:40 CST 2013]; root of context hierarchy
+INFO  [2013-04-14 06:46:40,537] org.springframework.beans.factory.xml.XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [dropwizardSpringContext.xml]
+INFO  [2013-04-14 06:46:40,607] org.springframework.beans.factory.support.DefaultListableBeanFactory: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7e413fc6: defining beans [dropwizard]; root of factory hierarchy
+INFO  [2013-04-14 06:46:40,612] org.springframework.beans.factory.xml.XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [api-context.xml]
+INFO  [2013-04-14 06:46:40,747] org.springframework.context.support.GenericXmlApplicationContext: Refreshing org.springframework.context.support.GenericXmlApplicationContext@2bf8f8c8: startup date [Sun Apr 14 14:46:40 CST 2013]; root of context hierarchy
+INFO  [2013-04-14 06:46:40,791] org.springframework.beans.factory.support.DefaultListableBeanFactory: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@39edd9b3: defining beans [emailFinderHealthCheck,defaultMatcherImpl,defaultMatchRuler,emailFinderResource,changedResourceUtil,jsonValidator,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,matcherRulerChain,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+INFO  [2013-04-14 06:46:40,963] com.yammer.dropwizard.cli.ServerCommand: Starting SpringService
+INFO  [2013-04-14 06:46:40,964] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+INFO  [2013-04-14 06:46:41,073] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2013-04-14 06:46:41,153] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /get/{id} (com.demandforce.iefp.resource.EmailFinderResource)
+    GET     /reply/{id}/{flag} (com.demandforce.iefp.resource.EmailFinderResource)
+    GET     /test/{name} (com.demandforce.iefp.resource.EmailFinderResource)
+    POST    /apply (com.demandforce.iefp.resource.EmailFinderResource)
+    POST    /check (com.demandforce.iefp.resource.EmailFinderResource)
+
+INFO  [2013-04-14 06:46:41,153] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+ERROR [2013-04-14 06:46:42,436] com.sun.jersey.spi.inject.Errors: The following errors and warnings have been detected with resource and/or provider classes:
+  WARNING: A HTTP GET method, public void com.demandforce.iefp.resource.EmailFinderResource.reply(java.lang.Long,java.lang.String,javax.ws.rs.core.Request), MUST return a non-void type.
+  SEVERE: Missing dependency for method public javax.ws.rs.core.Response com.demandforce.iefp.resource.EmailFinderResource.check(com.demandforce.iefp.model.User,com.demandforce.iefp.dto.CustomerDTO,javax.ws.rs.core.Request) at parameter at index 0
+  SEVERE: Missing dependency for method public javax.ws.rs.core.Response com.demandforce.iefp.resource.EmailFinderResource.check(com.demandforce.iefp.model.User,com.demandforce.iefp.dto.CustomerDTO,javax.ws.rs.core.Request) at parameter at index 1
+  SEVERE: Missing dependency for method public javax.ws.rs.core.Response com.demandforce.iefp.resource.EmailFinderResource.apply(com.demandforce.iefp.model.User,com.demandforce.iefp.dto.CustomerDTO,javax.ws.rs.core.Request) at parameter at index 0
+  SEVERE: Missing dependency for method public javax.ws.rs.core.Response com.demandforce.iefp.resource.EmailFinderResource.apply(com.demandforce.iefp.model.User,com.demandforce.iefp.dto.CustomerDTO,javax.ws.rs.core.Request) at parameter at index 1
+WARN  [2013-04-14 06:46:42,440] /: unavailable
+! com.sun.jersey.spi.inject.Errors$ErrorMessagesException: null
+! at com.sun.jersey.spi.inject.Errors.processErrorMessages(Errors.java:170) ~[dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.sun.jersey.spi.inject.Errors.postProcess(Errors.java:136) ~[dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.sun.jersey.spi.inject.Errors.processWithErrors(Errors.java:199) ~[dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.initiate(WebApplicationImpl.java:770) ~[dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.initiate(WebApplicationImpl.java:765) ~[dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.sun.jersey.spi.container.servlet.ServletContainer.initiate(ServletContainer.java:489) ~[dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.sun.jersey.spi.container.servlet.ServletContainer$InternalWebComponent.initiate(ServletContainer.java:319) ~[dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.sun.jersey.spi.container.servlet.WebComponent.load(WebComponent.java:605) ~[dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.sun.jersey.spi.container.servlet.WebComponent.init(WebComponent.java:210) ~[dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.sun.jersey.spi.container.servlet.ServletContainer.init(ServletContainer.java:374) ~[dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.sun.jersey.spi.container.servlet.ServletContainer.init(ServletContainer.java:557) ~[dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at javax.servlet.GenericServlet.init(GenericServlet.java:244) ~[dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:519) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.servlet.ServletHolder.doStart(ServletHolder.java:331) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:742) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:710) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:229) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.server.Server.doStart(Server.java:280) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.yammer.dropwizard.cli.ServerCommand.run(ServerCommand.java:48) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.yammer.dropwizard.cli.EnvironmentCommand.run(EnvironmentCommand.java:39) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.yammer.dropwizard.cli.ConfiguredCommand.run(ConfiguredCommand.java:58) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.yammer.dropwizard.cli.Cli.run(Cli.java:53) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.yammer.dropwizard.Service.run(Service.java:61) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.demandforce.iefp.spring.SpringService.main(SpringService.java:106) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+INFO  [2013-04-14 06:46:42,480] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8000
+INFO  [2013-04-14 06:46:42,484] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8001
+INFO  [2013-04-14 06:50:29,145] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8001
+INFO  [2013-04-14 06:51:36,335] org.apache.xbean.spring.jndi.SpringInitialContextFactory: Loading JNDI context from: class path resource [jndi.xml]
+INFO  [2013-04-14 06:51:36,371] org.apache.xbean.spring.context.v2.XBeanXmlBeanDefinitionReader: Loading XML bean definitions from class path resource [jndi.xml]
+INFO  [2013-04-14 06:51:36,501] org.springframework.context.support.ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2e39060b: startup date [Sun Apr 14 14:51:36 CST 2013]; root of context hierarchy
+INFO  [2013-04-14 06:51:36,505] org.springframework.beans.factory.xml.XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [dropwizardSpringContext.xml]
+INFO  [2013-04-14 06:51:36,571] org.springframework.beans.factory.support.DefaultListableBeanFactory: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@11c19919: defining beans [dropwizard]; root of factory hierarchy
+INFO  [2013-04-14 06:51:36,576] org.springframework.beans.factory.xml.XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [api-context.xml]
+INFO  [2013-04-14 06:51:36,713] org.springframework.context.support.GenericXmlApplicationContext: Refreshing org.springframework.context.support.GenericXmlApplicationContext@42bd93cd: startup date [Sun Apr 14 14:51:36 CST 2013]; root of context hierarchy
+INFO  [2013-04-14 06:51:36,758] org.springframework.beans.factory.support.DefaultListableBeanFactory: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@427ab40c: defining beans [emailFinderHealthCheck,defaultMatcherImpl,defaultMatchRuler,emailFinderResource,changedResourceUtil,jsonValidator,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,matcherRulerChain,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+INFO  [2013-04-14 06:51:36,882] com.yammer.dropwizard.cli.ServerCommand: Starting SpringService
+INFO  [2013-04-14 06:51:36,884] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+INFO  [2013-04-14 06:51:36,984] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2013-04-14 06:51:37,055] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /get/{id} (com.demandforce.iefp.resource.EmailFinderResource)
+    GET     /reply/{id}/{flag} (com.demandforce.iefp.resource.EmailFinderResource)
+    GET     /test/{name} (com.demandforce.iefp.resource.EmailFinderResource)
+    POST    /apply (com.demandforce.iefp.resource.EmailFinderResource)
+    POST    /check (com.demandforce.iefp.resource.EmailFinderResource)
+
+INFO  [2013-04-14 06:51:37,055] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+ERROR [2013-04-14 06:51:37,563] com.sun.jersey.spi.inject.Errors: The following errors and warnings have been detected with resource and/or provider classes:
+  SEVERE: Missing dependency for method public javax.ws.rs.core.Response com.demandforce.iefp.resource.EmailFinderResource.check(com.demandforce.iefp.model.User,com.demandforce.iefp.dto.CustomerDTO,javax.ws.rs.core.Request) at parameter at index 0
+  SEVERE: Missing dependency for method public javax.ws.rs.core.Response com.demandforce.iefp.resource.EmailFinderResource.check(com.demandforce.iefp.model.User,com.demandforce.iefp.dto.CustomerDTO,javax.ws.rs.core.Request) at parameter at index 1
+  SEVERE: Missing dependency for method public javax.ws.rs.core.Response com.demandforce.iefp.resource.EmailFinderResource.apply(com.demandforce.iefp.model.User,com.demandforce.iefp.dto.CustomerDTO,javax.ws.rs.core.Request) at parameter at index 0
+  SEVERE: Missing dependency for method public javax.ws.rs.core.Response com.demandforce.iefp.resource.EmailFinderResource.apply(com.demandforce.iefp.model.User,com.demandforce.iefp.dto.CustomerDTO,javax.ws.rs.core.Request) at parameter at index 1
+WARN  [2013-04-14 06:51:37,567] /: unavailable
+! com.sun.jersey.spi.inject.Errors$ErrorMessagesException: null
+! at com.sun.jersey.spi.inject.Errors.processErrorMessages(Errors.java:170) ~[dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.sun.jersey.spi.inject.Errors.postProcess(Errors.java:136) ~[dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.sun.jersey.spi.inject.Errors.processWithErrors(Errors.java:199) ~[dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.initiate(WebApplicationImpl.java:770) ~[dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.initiate(WebApplicationImpl.java:765) ~[dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.sun.jersey.spi.container.servlet.ServletContainer.initiate(ServletContainer.java:489) ~[dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.sun.jersey.spi.container.servlet.ServletContainer$InternalWebComponent.initiate(ServletContainer.java:319) ~[dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.sun.jersey.spi.container.servlet.WebComponent.load(WebComponent.java:605) ~[dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.sun.jersey.spi.container.servlet.WebComponent.init(WebComponent.java:210) ~[dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.sun.jersey.spi.container.servlet.ServletContainer.init(ServletContainer.java:374) ~[dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.sun.jersey.spi.container.servlet.ServletContainer.init(ServletContainer.java:557) ~[dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at javax.servlet.GenericServlet.init(GenericServlet.java:244) ~[dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:519) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.servlet.ServletHolder.doStart(ServletHolder.java:331) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:742) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:710) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:229) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.server.Server.doStart(Server.java:280) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.yammer.dropwizard.cli.ServerCommand.run(ServerCommand.java:48) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.yammer.dropwizard.cli.EnvironmentCommand.run(EnvironmentCommand.java:39) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.yammer.dropwizard.cli.ConfiguredCommand.run(ConfiguredCommand.java:58) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.yammer.dropwizard.cli.Cli.run(Cli.java:53) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.yammer.dropwizard.Service.run(Service.java:61) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.demandforce.iefp.spring.SpringService.main(SpringService.java:106) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+INFO  [2013-04-14 06:51:37,593] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8000
+INFO  [2013-04-14 06:51:37,597] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8001
+INFO  [2013-04-14 07:06:19,167] org.apache.xbean.spring.jndi.SpringInitialContextFactory: Loading JNDI context from: class path resource [jndi.xml]
+INFO  [2013-04-14 07:06:19,203] org.apache.xbean.spring.context.v2.XBeanXmlBeanDefinitionReader: Loading XML bean definitions from class path resource [jndi.xml]
+INFO  [2013-04-14 07:06:19,333] org.springframework.context.support.ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@11afd9cc: startup date [Sun Apr 14 15:06:19 CST 2013]; root of context hierarchy
+INFO  [2013-04-14 07:06:19,336] org.springframework.beans.factory.xml.XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [dropwizardSpringContext.xml]
+INFO  [2013-04-14 07:06:19,405] org.springframework.beans.factory.support.DefaultListableBeanFactory: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@687ec028: defining beans [dropwizard]; root of factory hierarchy
+INFO  [2013-04-14 07:06:19,410] org.springframework.beans.factory.xml.XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [api-context.xml]
+INFO  [2013-04-14 07:06:19,548] org.springframework.context.support.GenericXmlApplicationContext: Refreshing org.springframework.context.support.GenericXmlApplicationContext@2b8ca663: startup date [Sun Apr 14 15:06:19 CST 2013]; root of context hierarchy
+INFO  [2013-04-14 07:06:19,592] org.springframework.beans.factory.support.DefaultListableBeanFactory: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5c2a1ed: defining beans [emailFinderHealthCheck,defaultMatcherImpl,defaultMatchRuler,emailFinderResource,changedResourceUtil,jsonValidator,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,matcherRulerChain,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+INFO  [2013-04-14 07:06:19,716] com.yammer.dropwizard.cli.ServerCommand: Starting SpringService
+INFO  [2013-04-14 07:06:19,718] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+INFO  [2013-04-14 07:06:19,826] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2013-04-14 07:06:19,885] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /get/{id} (com.demandforce.iefp.resource.EmailFinderResource)
+    GET     /reply/{id}/{flag} (com.demandforce.iefp.resource.EmailFinderResource)
+    GET     /test/{name} (com.demandforce.iefp.resource.EmailFinderResource)
+    POST    /apply (com.demandforce.iefp.resource.EmailFinderResource)
+    POST    /check (com.demandforce.iefp.resource.EmailFinderResource)
+
+INFO  [2013-04-14 07:06:19,886] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+ERROR [2013-04-14 07:06:20,418] com.sun.jersey.spi.inject.Errors: The following errors and warnings have been detected with resource and/or provider classes:
+  SEVERE: Missing dependency for method public javax.ws.rs.core.Response com.demandforce.iefp.resource.EmailFinderResource.check(com.demandforce.iefp.model.User,com.demandforce.iefp.dto.CustomerDTO,javax.ws.rs.core.Request) at parameter at index 0
+  SEVERE: Missing dependency for method public javax.ws.rs.core.Response com.demandforce.iefp.resource.EmailFinderResource.check(com.demandforce.iefp.model.User,com.demandforce.iefp.dto.CustomerDTO,javax.ws.rs.core.Request) at parameter at index 1
+  SEVERE: Missing dependency for method public javax.ws.rs.core.Response com.demandforce.iefp.resource.EmailFinderResource.apply(com.demandforce.iefp.model.User,com.demandforce.iefp.dto.CustomerDTO,javax.ws.rs.core.Request) at parameter at index 0
+  SEVERE: Missing dependency for method public javax.ws.rs.core.Response com.demandforce.iefp.resource.EmailFinderResource.apply(com.demandforce.iefp.model.User,com.demandforce.iefp.dto.CustomerDTO,javax.ws.rs.core.Request) at parameter at index 1
+WARN  [2013-04-14 07:06:20,421] /: unavailable
+! com.sun.jersey.spi.inject.Errors$ErrorMessagesException: null
+! at com.sun.jersey.spi.inject.Errors.processErrorMessages(Errors.java:170) ~[dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.sun.jersey.spi.inject.Errors.postProcess(Errors.java:136) ~[dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.sun.jersey.spi.inject.Errors.processWithErrors(Errors.java:199) ~[dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.initiate(WebApplicationImpl.java:770) ~[dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.sun.jersey.server.impl.application.WebApplicationImpl.initiate(WebApplicationImpl.java:765) ~[dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.sun.jersey.spi.container.servlet.ServletContainer.initiate(ServletContainer.java:489) ~[dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.sun.jersey.spi.container.servlet.ServletContainer$InternalWebComponent.initiate(ServletContainer.java:319) ~[dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.sun.jersey.spi.container.servlet.WebComponent.load(WebComponent.java:605) ~[dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.sun.jersey.spi.container.servlet.WebComponent.init(WebComponent.java:210) ~[dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.sun.jersey.spi.container.servlet.ServletContainer.init(ServletContainer.java:374) ~[dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.sun.jersey.spi.container.servlet.ServletContainer.init(ServletContainer.java:557) ~[dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at javax.servlet.GenericServlet.init(GenericServlet.java:244) ~[dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:519) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.servlet.ServletHolder.doStart(ServletHolder.java:331) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:742) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:710) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:229) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.server.Server.doStart(Server.java:280) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.yammer.dropwizard.cli.ServerCommand.run(ServerCommand.java:48) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.yammer.dropwizard.cli.EnvironmentCommand.run(EnvironmentCommand.java:39) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.yammer.dropwizard.cli.ConfiguredCommand.run(ConfiguredCommand.java:58) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.yammer.dropwizard.cli.Cli.run(Cli.java:53) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.yammer.dropwizard.Service.run(Service.java:61) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+! at com.demandforce.iefp.spring.SpringService.main(SpringService.java:106) [dfiefp-1.0-SNAPSHOT-executable.jar:na]
+INFO  [2013-04-14 07:06:20,447] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8000
+INFO  [2013-04-14 07:06:20,451] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8001
+INFO  [2013-04-14 08:04:14,123] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8001
+INFO  [2013-04-14 08:07:03,493] org.apache.xbean.spring.jndi.SpringInitialContextFactory: Loading JNDI context from: class path resource [jndi.xml]
+INFO  [2013-04-14 08:07:03,527] org.apache.xbean.spring.context.v2.XBeanXmlBeanDefinitionReader: Loading XML bean definitions from class path resource [jndi.xml]
+INFO  [2013-04-14 08:07:03,647] org.springframework.context.support.ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1702679a: startup date [Sun Apr 14 16:07:03 CST 2013]; root of context hierarchy
+INFO  [2013-04-14 08:07:03,650] org.springframework.beans.factory.xml.XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [dropwizardSpringContext.xml]
+INFO  [2013-04-14 08:07:03,712] org.springframework.beans.factory.support.DefaultListableBeanFactory: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@12183272: defining beans [dropwizard]; root of factory hierarchy
+INFO  [2013-04-14 08:07:03,717] org.springframework.beans.factory.xml.XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [api-context.xml]
+INFO  [2013-04-14 08:07:03,860] org.springframework.context.support.GenericXmlApplicationContext: Refreshing org.springframework.context.support.GenericXmlApplicationContext@5631573: startup date [Sun Apr 14 16:07:03 CST 2013]; root of context hierarchy
+INFO  [2013-04-14 08:07:03,899] org.springframework.beans.factory.support.DefaultListableBeanFactory: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2d14d18f: defining beans [emailFinderHealthCheck,defaultMatcherImpl,defaultMatchRuler,emailFinderResource,changedResourceUtil,jsonValidator,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,matcherRulerChain,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+INFO  [2013-04-14 08:07:04,026] com.yammer.dropwizard.cli.ServerCommand: Starting SpringService
+INFO  [2013-04-14 08:07:04,030] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+INFO  [2013-04-14 08:07:04,147] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2013-04-14 08:07:04,214] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /get/{id} (com.demandforce.iefp.resource.EmailFinderResource)
+    GET     /reply/{id}/{flag} (com.demandforce.iefp.resource.EmailFinderResource)
+    GET     /test/{name} (com.demandforce.iefp.resource.EmailFinderResource)
+    POST    /apply (com.demandforce.iefp.resource.EmailFinderResource)
+    POST    /check (com.demandforce.iefp.resource.EmailFinderResource)
+
+INFO  [2013-04-14 08:07:04,214] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2013-04-14 08:07:04,759] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8000
+INFO  [2013-04-14 08:07:04,763] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8001
+INFO  [2013-04-14 08:25:35,290] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8001
+INFO  [2013-04-14 08:26:13,493] org.apache.xbean.spring.jndi.SpringInitialContextFactory: Loading JNDI context from: class path resource [jndi.xml]
+INFO  [2013-04-14 08:26:13,530] org.apache.xbean.spring.context.v2.XBeanXmlBeanDefinitionReader: Loading XML bean definitions from class path resource [jndi.xml]
+INFO  [2013-04-14 08:26:13,654] org.springframework.context.support.ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@69022de4: startup date [Sun Apr 14 16:26:13 CST 2013]; root of context hierarchy
+INFO  [2013-04-14 08:26:13,658] org.springframework.beans.factory.xml.XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [dropwizardSpringContext.xml]
+INFO  [2013-04-14 08:26:13,723] org.springframework.beans.factory.support.DefaultListableBeanFactory: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7e413fc6: defining beans [dropwizard]; root of factory hierarchy
+INFO  [2013-04-14 08:26:13,728] org.springframework.beans.factory.xml.XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [api-context.xml]
+INFO  [2013-04-14 08:26:13,864] org.springframework.context.support.GenericXmlApplicationContext: Refreshing org.springframework.context.support.GenericXmlApplicationContext@2bf8f8c8: startup date [Sun Apr 14 16:26:13 CST 2013]; root of context hierarchy
+INFO  [2013-04-14 08:26:13,903] org.springframework.beans.factory.support.DefaultListableBeanFactory: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@44a9a32c: defining beans [emailFinderHealthCheck,defaultMatcherImpl,defaultMatchRuler,emailFinderResource,changedResourceUtil,jsonValidator,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,matcherRulerChain,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+INFO  [2013-04-14 08:26:14,029] com.yammer.dropwizard.cli.ServerCommand: Starting SpringService
+INFO  [2013-04-14 08:26:14,030] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+INFO  [2013-04-14 08:26:14,122] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2013-04-14 08:26:14,189] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /get/{id} (com.demandforce.iefp.resource.EmailFinderResource)
+    GET     /reply/{id}/{flag} (com.demandforce.iefp.resource.EmailFinderResource)
+    GET     /test/{name} (com.demandforce.iefp.resource.EmailFinderResource)
+    POST    /apply (com.demandforce.iefp.resource.EmailFinderResource)
+    POST    /check (com.demandforce.iefp.resource.EmailFinderResource)
+
+INFO  [2013-04-14 08:26:14,189] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2013-04-14 08:26:14,729] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8000
+INFO  [2013-04-14 08:26:14,733] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8001
+INFO  [2013-04-14 08:46:34,577] org.apache.xbean.spring.jndi.SpringInitialContextFactory: Loading JNDI context from: class path resource [jndi.xml]
+INFO  [2013-04-14 08:46:34,612] org.apache.xbean.spring.context.v2.XBeanXmlBeanDefinitionReader: Loading XML bean definitions from class path resource [jndi.xml]
+INFO  [2013-04-14 08:46:34,748] org.springframework.context.support.ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7f42731: startup date [Sun Apr 14 16:46:34 CST 2013]; root of context hierarchy
+INFO  [2013-04-14 08:46:34,752] org.springframework.beans.factory.xml.XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [dropwizardSpringContext.xml]
+INFO  [2013-04-14 08:46:34,813] org.springframework.beans.factory.support.DefaultListableBeanFactory: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d2d58b: defining beans [dropwizard]; root of factory hierarchy
+INFO  [2013-04-14 08:46:34,818] org.springframework.beans.factory.xml.XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [api-context.xml]
+INFO  [2013-04-14 08:46:34,962] org.springframework.context.support.GenericXmlApplicationContext: Refreshing org.springframework.context.support.GenericXmlApplicationContext@31dd7736: startup date [Sun Apr 14 16:46:34 CST 2013]; root of context hierarchy
+INFO  [2013-04-14 08:46:35,004] org.springframework.beans.factory.support.DefaultListableBeanFactory: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@10e9df: defining beans [basicAuthenticator,emailFinderHealthCheck,defaultMatcherImpl,defaultMatchRuler,emailFinderResource,changedResourceUtil,jsonValidator,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,matcherRulerChain,authenticatorProvider,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+INFO  [2013-04-14 08:46:35,046] org.springframework.beans.factory.support.DefaultListableBeanFactory: Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@10e9df: defining beans [basicAuthenticator,emailFinderHealthCheck,defaultMatcherImpl,defaultMatchRuler,emailFinderResource,changedResourceUtil,jsonValidator,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,matcherRulerChain,authenticatorProvider,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+INFO  [2013-04-14 08:48:11,753] org.apache.xbean.spring.jndi.SpringInitialContextFactory: Loading JNDI context from: class path resource [jndi.xml]
+INFO  [2013-04-14 08:48:11,789] org.apache.xbean.spring.context.v2.XBeanXmlBeanDefinitionReader: Loading XML bean definitions from class path resource [jndi.xml]
+INFO  [2013-04-14 08:48:11,919] org.springframework.context.support.ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@11afd9cc: startup date [Sun Apr 14 16:48:11 CST 2013]; root of context hierarchy
+INFO  [2013-04-14 08:48:11,921] org.springframework.beans.factory.xml.XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [dropwizardSpringContext.xml]
+INFO  [2013-04-14 08:48:11,994] org.springframework.beans.factory.support.DefaultListableBeanFactory: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@687ec028: defining beans [dropwizard]; root of factory hierarchy
+INFO  [2013-04-14 08:48:11,999] org.springframework.beans.factory.xml.XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [api-context.xml]
+INFO  [2013-04-14 08:48:12,135] org.springframework.context.support.GenericXmlApplicationContext: Refreshing org.springframework.context.support.GenericXmlApplicationContext@2b8ca663: startup date [Sun Apr 14 16:48:12 CST 2013]; root of context hierarchy
+INFO  [2013-04-14 08:48:12,183] org.springframework.beans.factory.support.DefaultListableBeanFactory: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2d14d18f: defining beans [basicAuthenticator,emailFinderHealthCheck,defaultMatcherImpl,defaultMatchRuler,emailFinderResource,changedResourceUtil,jsonValidator,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,matcherRulerChain,authenticatorProvider,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+INFO  [2013-04-14 08:48:12,313] com.yammer.dropwizard.cli.ServerCommand: Starting SpringService
+INFO  [2013-04-14 08:48:12,314] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+INFO  [2013-04-14 08:48:12,420] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2013-04-14 08:48:12,488] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /get/{id} (com.demandforce.iefp.resource.EmailFinderResource)
+    GET     /reply/{id}/{flag} (com.demandforce.iefp.resource.EmailFinderResource)
+    GET     /test/{name} (com.demandforce.iefp.resource.EmailFinderResource)
+    POST    /apply (com.demandforce.iefp.resource.EmailFinderResource)
+    POST    /check (com.demandforce.iefp.resource.EmailFinderResource)
+
+INFO  [2013-04-14 08:48:12,488] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2013-04-14 08:48:13,141] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8000
+INFO  [2013-04-14 08:48:13,145] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8001

@@ -11,7 +11,10 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.context.support.GenericXmlApplicationContext;
 
+import com.demandforce.iefp.auth.BasicAuthenticator;
+import com.demandforce.iefp.model.User;
 import com.yammer.dropwizard.Service;
+import com.yammer.dropwizard.auth.basic.BasicAuthProvider;
 import com.yammer.dropwizard.config.Bootstrap;
 import com.yammer.dropwizard.config.Environment;
 import com.yammer.dropwizard.lifecycle.Managed;
@@ -60,6 +63,8 @@ public class SpringService extends Service<SpringServiceConfiguration> {
 				env.addProvider(ctx.getBean(provider));
 			}
 		}
+//		env.addProvider(new BasicAuthProvider<User>(new BasicAuthenticator(),
+//                "SUPER SECRET STUFF"));
 	}
 
 	private void loadTasks(List<String> tasks, ApplicationContext ctx, Environment env) {
@@ -96,7 +101,6 @@ public class SpringService extends Service<SpringServiceConfiguration> {
 			ctx.getEnvironment().setActiveProfiles(
 					config.getSpringProfiles().toArray(new String[config.getSpringProfiles().size()]));
 		String[] configLocations = config.getConfigLocations().toArray(new String[config.getConfigLocations().size()]);
-		ctx.load(configLocations);
 
 		ctx.load(configLocations);
 		ctx.refresh();

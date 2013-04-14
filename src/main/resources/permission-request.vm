@@ -1,0 +1,11 @@
+<html>
+<body>
+<h3>Dear ${customer.firstName} ${customer.lastName}:</h3>
+<div>
+The ${customer.businessName} you have ever been there before,want to get your email for the good service to you.
+If you permit,please click this <a href="${serverRoot}/${customer.requestId}/y">Yes,I permit.</a>,else please click here <a href="${serverRoot}/${customer.requestId}/n">No,thanks.</a>
+</div>
+
+
+</body>
+</html>

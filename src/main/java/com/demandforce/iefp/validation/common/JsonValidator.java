@@ -1,17 +1,17 @@
-package com.demandforce.api.validation.common;
+package com.demandforce.iefp.validation.common;
 
-import static com.demandforce.api.util.common.ResponseUtil.buildBadRequestErrorResponse;
-
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
+import com.demandforce.iefp.util.common.ResponseUtil;
 import com.google.common.collect.ImmutableList;
-import com.yammer.dropwizard.logging.Log;
 import com.yammer.dropwizard.validation.Validator;
 
 @Component
 public class JsonValidator {
 
-	private static final Log LOG = Log.forClass(JsonValidator.class);
+	private static final Logger LOG = LoggerFactory.getLogger(JsonValidator.class);
 
 	private final transient Validator validator = new Validator();
 
@@ -21,7 +21,7 @@ public class JsonValidator {
 		ImmutableList<String> errorMessages = validator.validate(o);
 		for (String errorMessage : errorMessages) {
 			LOG.debug("Validation failure : " + errorMessage);
-			buildBadRequestErrorResponse(errorMessage);
+			ResponseUtil.buildBadRequestErrorResponse(errorMessage);
 		}
 	}
 }

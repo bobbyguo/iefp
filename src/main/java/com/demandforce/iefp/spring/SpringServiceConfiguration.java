@@ -2,8 +2,7 @@ package com.demandforce.iefp.spring;
 
 import javax.validation.constraints.NotNull;
 
-import org.codehaus.jackson.annotate.JsonProperty;
-
+import com.fasterxml.jackson.annotation.JsonProperty;
 import com.yammer.dropwizard.config.Configuration;
 
 @SuppressWarnings({ "PMD.BeanMembersShouldSerialize" })
